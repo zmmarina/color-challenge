@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    background-color: gray;
+    
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.container{
+   background-color: green;
+   width: 800px;
+   height: 150px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 0 auto;
+   padding: 30px;
+   justify-items: center;
+   text-align: center;
+}
+
+.title ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.result button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+footer{
+    background-color: blue;
+}
