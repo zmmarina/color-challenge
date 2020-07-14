@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Color Challenge</title>
 </head>
 <body>
@@ -13,23 +14,17 @@
     <main>
         <div class="container">
             <section class="colors">
-                Red <input  type="range"  id="red" value="0" min="0" max="255">
-                Green <input  type="range"  id="green" value="0" min="0" max="255">
-                Blue <input  type="range"  id="blue" value="0" min="0" max="255">
-            </section>
-
-            <section class="color_code">
-                <span id="outputRed"></span>
-                <span id="outputGreen"></span>
-                <span id="outputBlue" ></span>              
-            </section>
-
-            <section class="result">
-                <button id="button"></button>
+                Red <input  type="range"  id="red" value="0" min="0" max="255"> <span id="outputRed"></span>
+                Green <input  type="range"  id="green" value="0" min="0" max="255"> <span id="outputGreen"></span>
+                Blue <input  type="range"  id="blue" value="0" min="0" max="255"> <span id="outputBlue" ></span>
             </section>
 
         </div>
+        <section class="result">
+            <button id="button"></button>
+        </section>
     </main>
+
     <footer>
         Pick the color that makes your day!
     </footer>
