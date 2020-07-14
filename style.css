@@ -18,23 +18,21 @@ h1{
    width: 800px;
    height: 150px;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
    margin: 0 auto;
    padding: 30px;
    justify-items: center;
    text-align: center;
 }
 
-.title ul{
-    list-style-type: none;
-    margin-left: 20px;
+span{
+    display: block;
 }
 
 .result button{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-
 }
 
 footer{

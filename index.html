@@ -12,26 +12,22 @@
     </header>
     <main>
         <div class="container">
-            <section class="title">
-                <ul>
-                    <li>Red</li>
-                    <li>Green</li>
-                    <li>Blue</li>
-                </ul>
-            </section>
             <section class="colors">
-                <input type="range" name="red" id="red">
-                <input type="range" name="green" id="green">
-                <input type="range" name="blue" id="blue">
+                Red <input  type="range"  id="red" value="0" min="0" max="255">
+                Green <input  type="range"  id="green" value="0" min="0" max="255">
+                Blue <input  type="range"  id="blue" value="0" min="0" max="255">
             </section>
+
             <section class="color_code">
-                <input type="text" name="red">
-                <input type="text" name="green">
-                <input type="text" name="blue">
+                <span id="outputRed"></span>
+                <span id="outputGreen"></span>
+                <span id="outputBlue" ></span>              
             </section>
+
             <section class="result">
-                <button></button>
+                <button id="button"></button>
             </section>
+
         </div>
     </main>
     <footer>
